@@ -4,7 +4,7 @@ name: Release build
 
 on:
   release:
-    types: [*]
+    types: [published]
 
 jobs:
   validate_release:
